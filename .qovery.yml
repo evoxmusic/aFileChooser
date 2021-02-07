@@ -1,0 +1,11 @@
+---
+application:
+  name: "afilechooser"
+  project: "teabot"
+  organization: "QoveryCommunity"
+routers:
+- name: "main-afilechooser"
+  routes:
+  - application_name: "afilechooser"
+    paths:
+    - "/*"
